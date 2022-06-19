@@ -1,0 +1,222 @@
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    zoom: 78%;
+}
+._container {
+    max-width: 1199px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+.header__container {
+    display: flex;
+    min-height: 115px;
+    padding: 25px 0 0 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+}
+.navigation {
+    padding: 0 10px;
+}
+.navigation a {
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__item:not(:last-child) {
+    padding: 0 80px 0 0;
+}
+.menu__link {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.phone {
+
+}
+.phone__container {
+    border: 1px solid #FFFEFE;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35px;
+    height: 73px;
+}
+.pnone__number {
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+/*=================================MAIN=================================*/
+.main {
+}
+
+/*-----------------------WELCOME-----------------------*/
+.main__welcome {
+    background: #000;
+}
+.welcome {
+}
+.welcome__container {
+    padding: 0 0 188px 0;
+}
+.welcome__content {
+    padding: 220px 0 0 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.welcome__text-block {
+    position: relative;
+    z-index: 49;
+}
+.welcome__title {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+.welcome__sub-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    max-width: 395px;
+    margin: 28px 0 0 0;
+}
+.welcome__languages {
+    width: 514px;
+    margin: 70px 0 0 0;
+    /* filter: drop-shadow(0px 2px 15px #986125); */
+}
+.languages {
+}
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.languages__spanish {
+    border: 1px solid #422711;
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+}
+.languages__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    padding: 25px 0 25px 60px;
+}
+.languages__triangle {
+    background: url(img/welcome/triangle-white.png) 0 0 no-repeat;
+    width: 30px;
+    height: 30px;
+    padding-right: 60px;
+}
+.languages__english {
+    border: 1px solid #422711;
+}
+.languages__italian {
+    border: 1px solid #422711;
+    border-top: none;
+    border-radius: 0 0 15px 15px;
+}
+.welcome__image {
+    position: absolute;
+    top: 0;
+    right: -160px;
+    z-index: 48;
+}
+.welcome__image_round {
+    position: absolute;
+    z-index: 49;
+    top: 270px;
+    left: 180px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.01);
+    border: 1px solid #986125;
+    box-shadow: 0px 2px 100px rgba(247, 230, 188, 0.3);
+}
+.welcome__lang-switch {
+    align-self: center;
+    position: relative;
+    z-index: 49;
+}
+.lang-switch__list {
+}
+.lang-switch__item {
+}
+.lang-switch__link {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.welcome__button {
+    margin: 83px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.welcome__button-welcome {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 2px 100px rgba(247, 230, 188, 0.3);
+    border: 1px solid #f06c00;
+    border-radius: 45px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    height: 70px;
+    width: 324px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green {
+    filter: drop-shadow(0px 2px 15px #389825);
+    transition: .5s ease;
+}
+.red {
+    filter: drop-shadow(0px 2px 15px #982525);
+    transition: .5s ease;
+}
+.orange {
+    filter: drop-shadow(0px 2px 15px #986125);
+    transition: .5s ease;
+}
+
+.footer {
+}
