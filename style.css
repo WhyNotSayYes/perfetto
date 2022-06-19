@@ -465,5 +465,52 @@ h2 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/*-----------------------CONTACTS-----------------------*/
+.main__contacts {
+}
+.contacts {
+}
+.contacts__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 0 138px 0;
+}
+.contacts__content {
+    flex: 0 1 36%;
+    margin: 0 45px 0 0;
+}
+.contacts__title {
+}
+.contacts__list {
+    margin: 118px 0 0 0;
+}
+.contacts__item {
+    display: flex;
+    align-items: center;
+}
+.contacts__item:not(:first-child) {
+    margin: 20px 0 0 0;
+}
+.contacts__link {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 0 0 0 10px;
+}
+.contacts__social {
+    margin: 37px 0 0 74px;
+}
+.social {
+}
+.social-item:not(:last-child) {
+    margin: 0 16px 0 0;
+}
+.contacts__map {
+    flex: 0 1 auto;
+    margin: 71px 0 0 0;
+}
+
 .footer {
 }
